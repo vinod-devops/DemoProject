@@ -164,8 +164,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.2</version>
                 <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
+                    <source>1.7</source>
+                    <target>1.7</target>
                 </configuration>
             </plugin>
             <plugin>
@@ -241,7 +241,7 @@
                         <artifactId>maven-pmd-plugin</artifactId>
                         <version>3.2</version>
                         <configuration>
-                            <targetJdk>1.8</targetJdk>
+                            <targetJdk>1.7</targetJdk>
                             <aggregate>true</aggregate>
                             <format>xml</format>
                             <!-- CPD options -->
